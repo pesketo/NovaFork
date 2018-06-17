@@ -85,7 +85,6 @@
 ::-webkit-scrollbar {width: 8px !important;}
 ::-webkit-scrollbar-thumb {border: 1px solid blue !important;background-color: hsla(0, 0%, 0%, 1) !important}
 ::-webkit-scrollbar-track-piece {background-color: hsla(0, 0%, 0%, 0) !important;border:none !important}
-::-webkit-scrollbar-thumb, ::-webkit-scrollbar-track {visibility:visible !important}
 
 .badge {border-radius:50%}
 .guilds-wrapper .scroller-wrap {width:auto !important;}
