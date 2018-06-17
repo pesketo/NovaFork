@@ -1,8 +1,3 @@
-//META{"name":"Nova Fork","description":"Explore the galaxy with a chilling theme","author":"Satoru","version":"1.0"}*//{}
-
-/* This is my fork of Nova. I will update this and fix anything that breaks.
-   Credit to DinosParkour for original theme */
-
 .appMount-3VJmYg {background: url(https://i.imgur.com/h0YyOD7.png) center/cover no-repeat;}
 
 /*Transparency*/
@@ -33,7 +28,7 @@
 .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover,
 .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {background-color: rgba(0,0,0,0.6) !important;}
 .messagesPopoutWrap-1MQ1bW .header-ykumBX,
-.messagesPopoutWrap-1MQ1bW {background-color: rgba(0,0,0,0) !important;}
+.messagesPopoutWrap-1MQ1bW {background-color: rgba(0, 0, 0, 0.9) !important;}
 .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {background-color: rgba(0,0,0,0.4) !important;}
 .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
     box-shadow: 0 0 6px 4px rgba(0,0,0,0.4) !important;background: transparent !important;}
@@ -60,8 +55,6 @@
     margin-top: -27px;margin-left: 10px;
     transition: background-color .25s cubic-bezier(0.4,0,1,1);}
 .channel-notice {opacity: .95;}
-.channel:not(.selected) {transition: background .3s ease-out;}
-.channel:not(.selected):hover {transition: background .2s ease-in;background: rgba(235,232,218,0.05);}
 .guild-channels .channel-text.selected:before,
 .guild-channels .channel-text.selected:hover:before,
 .guild-channels .channel-text:hover.channel-muted:before,
@@ -69,14 +62,19 @@
 .private-channels .channel.selected:before,
 .private-channels .channel:hover:before {border-left: 5px solid purple;}
 .private-channels .channel:hover:before {opacity: .25;}
-.search-result,
-.tab-bar-item:hover {background: rgba(235,232,218,0.05) !important;}
-.friends-row:hover,
-.search-result:hover,
-.btn-friends.selected,
-.search-result.selected,
-.channel.selected.private,
-div.channel.channel-text.selected {background: rgba(235,232,218,0.1) !important;}
+.search-result,.tab-bar-item:hover {background: rgba(235,232,218,0.1) !important;}
+
+.theme-dark .friends-table .messages .divider:not(.red) span, 
+.theme-dark .messages-wrapper .messages .divider:not(.red) span {color: red}
+.theme-dark .friends-table .messages .divider:not(.red) div, 
+.theme-dark .messages-wrapper .messages .divider:not(.red) div {background: blue}
+
+.theme-dark .private-channels .channel.selected a{
+    background: rgba(255, 0, 0, 0.3);}
+.private-channels .channel:hover a, .contentHoveredText-2D9B-x, 
+.contentHoveredVoice-3p_NEO,.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {
+    background: rgba(255, 0, 0, 0.2);}
+.contentUnreadText-2vNnZc, .contentUnreadVoice-1dijOt {background: rgba(0, 0, 255, 0.2)}
 
 #voice-connection {border-top: none;}
 #voice-connection .btn,
