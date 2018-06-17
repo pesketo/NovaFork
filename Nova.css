@@ -1,3 +1,8 @@
+//META{"name":"Nova Fork","description":"Explore the galaxy with a chilling theme","author":"Satoru","version":"1.0"}*//{}
+
+/* This is my fork of Nova. I will update this and fix anything that breaks.
+   Credit to DinosParkour for original theme */
+
 .appMount-3VJmYg {background: url(https://i.imgur.com/h0YyOD7.png) center/cover no-repeat;}
 
 /*Transparency*/
@@ -41,6 +46,9 @@
 ::-webkit-scrollbar-thumb {border: 1px solid blue !important;background-color: hsla(0, 0%, 0%, 1) !important}
 ::-webkit-scrollbar-track-piece {background-color: hsla(0, 0%, 0%, 0) !important;border:none !important}
 .guilds-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {visibility:hidden !important}
+
+.theme-dark .headerNormal-T_seeN,.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6,.theme-dark .menu-Sp6bN1,.need-help-modal.deprecated .header,.need-help-modal.deprecated .form-inner.loading,
+.need-help-modal.deprecated .footer,.need-help-modal.deprecated .header input[type=text],.theme-dark .headerTop-3C2Zn0 {background: rgba(0, 0, 0, 0.8);}
 
 .badge {border-radius:50%}
 .guilds-wrapper .scroller-wrap {width:auto !important;}
