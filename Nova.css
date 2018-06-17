@@ -1,0 +1,188 @@
+//META{"name":"Nova Fork","description":"Explore the galaxy with a chilling theme","author":"Satoru","version":"1.0"}*//{}
+
+/* This is my fork of Nova. I will update this and fix anything that breaks.
+   Credit to DinosParkour for original theme */
+
+.appMount-3VJmYg {background: url(https://i.imgur.com/h0YyOD7.png) center/cover no-repeat;}
+
+/*Transparency*/
+#voice-connection, 
+#friends, 
+.friends-header, 
+.friends-table, 
+.guilds-wrapper,
+.headerBar-UHpsPw, 
+.guild-header header, 
+.channels-wrap, 
+.private-channels .search-bar, 
+.private-channels, 
+.guild-channels, 
+.account, 
+.friend-table-add-header,
+.chat, 
+.content, 
+.title-wrap:not(.search-bar), 
+.messages-wrapper, 
+.messages .divider span, 
+.messages .divider:before, 
+.content, .message-group-blocked, 
+.is-local-bot-message,
+.channel-members-loading, 
+.channel-members-loading .heading, 
+.channel-members-loading .member, 
+.typing, 
+.container-RYiLUQ, 
+.theme-dark .ui-standard-sidebar-view, 
+.theme-dark .ui-standard-sidebar-view .sidebar-region,
+.theme-dark .ui-standard-sidebar-view .content-region,
+.theme-dark .channel-members,
+.theme-dark .chat form, 
+.channels-3g2vYe, 
+.theme-dark .friends-table, 
+.theme-dark .messages-wrapper, 
+.content .flex-spacer, 
+.theme-dark .chat>.content, 
+.theme-dark .chat, 
+.channel-members, 
+.search .search-bar, 
+.container-iksrDt, 
+.container-3lnMWU, 
+.theme-dark .title-qAcLxz, 
+.theme-dark .typing-3eiiL_,
+.container-2OU7Cz,
+.theme-dark .activityFeed-HeiGwL,
+.theme-dark .headerBar-cxbhPD,
+.theme-dark .lfg-3xoFkI,
+.video-3lOWa6,
+.theme-dark .private-channel-call,
+.container-2lgZY8,
+.channels-Ie2l6A,
+.container-PNkimc,
+.container-2Thooq,
+.theme-dark .title-3qD0b-,
+.theme-dark .typing-2GQL18,
+.search-bar.search-bar-light,
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
+.theme-dark .members-1998pB{background: transparent !important;}
+.theme-dark .card-2WxYqG {background-color: rgba(54, 57, 63, 0.3)!important;}
+.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .typeWindows-15E0Ys {background: rgba(0, 0, 0, 0.18) !important;}
+.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover,
+.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {background-color: rgba(0,0,0,0.6) !important;}
+.messagesPopoutWrap-1MQ1bW .header-ykumBX,
+.messagesPopoutWrap-1MQ1bW {background-color: rgba(0,0,0,0) !important;}
+.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {background-color: rgba(0,0,0,0.4) !important;}
+.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
+    box-shadow: 0 0 6px 4px rgba(0,0,0,0.4) !important;
+    background: transparent !important;
+}
+.titleBar-AC4pGV::after {
+	content:"" ; 
+	position:absolute;
+	z-index:-1;
+	top:0; left:0; right:0; width:100%; height:22px; 
+ 	background: rgba(0, 0, 0, 0.33) !important;} 
+
+::-webkit-scrollbar {width: 8px !important;}
+::-webkit-scrollbar-thumb {border: 1px solid blue !important;background-color: hsla(0, 0%, 0%, 1) !important}
+::-webkit-scrollbar-track-piece {background-color: hsla(0, 0%, 0%, 0) !important;border:none !important}
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-track {visibility:visible !important}
+
+.badge {border-radius:50%}
+.guilds-wrapper .scroller-wrap {width:auto !important;}
+.guild-inner:hover,li.active .guild-inner {background-color: rgba(115,139,215,0.5) !important;}
+.guilds-wrapper {width: 80px;}
+.guilds-wrapper .guilds .guild.unread:before {background-color: rgba(255,0,0,0.25);}
+.guilds-wrapper .guilds .guild.selected:before {background-color: rgba(0, 0, 0, 0);}
+.guilds-wrapper .guilds .guild.selected:before,
+.guilds-wrapper .guilds .guild.unread:before {
+    border-radius: 20%;
+    width: 60px;height: 55px;
+    margin-top: -27px;margin-left: 10px;
+    transition: background-color .25s cubic-bezier(0.4,0,1,1);}
+.channel-notice {opacity: .95;}
+.channel:not(.selected) {transition: background .3s ease-out;}
+.channel:not(.selected):hover {transition: background .2s ease-in;background: rgba(235,232,218,0.05);}
+.guild-channels .channel-text.selected:before,
+.guild-channels .channel-text.selected:hover:before,
+.guild-channels .channel-text:hover.channel-muted:before,
+.guild-channels .channel-text:hover:not(.unread):before,
+.private-channels .channel.selected:before,
+.private-channels .channel:hover:before {border-left: 5px solid purple;}
+.private-channels .channel:hover:before {opacity: .25;}
+.search-result,
+.tab-bar-item:hover {background: rgba(235,232,218,0.05) !important;}
+.friends-row:hover,
+.search-result:hover,
+.btn-friends.selected,
+.search-result.selected,
+.channel.selected.private,
+div.channel.channel-text.selected {background: rgba(235,232,218,0.1) !important;}
+
+#voice-connection {border-top: none;}
+#voice-connection .btn,
+.account .btn {
+    border: none;
+    border-bottom: solid 1px rgba(235,232,218,0.05);
+    background-color: rgb(42, 42, 42) !important;
+    opacity: .65;}
+#voice-connection .btn-group,
+.account .btn-group {box-shadow: .75px 1.5px 1px #14171b;border: none;}
+.account .username {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;text-shadow: 1.35px .75px 1px black;}
+.account {border-top: none;}
+.status {border-color: rgba(0,0,0,0.33) !important;}
+
+.popout header,
+.slider-bar-fill {background-color: #06c;}
+.user-popout .user-popout-options .btn {background-color: #06c;}
+.user-popout .user-popout-options .btn:hover {background-color: #0080ff;}
+.user-popout .username {font-size: 16px;}
+
+.tooltip {background:#06c;color: #fff;}
+.tooltip.tooltip-right:after {border-right-color:#06c;}
+.tooltip.tooltip-top:after {border-top-color:#06c;}
+
+.icon-friends {background-color: rgba(0,0,0,0.35) !important}
+#friends .tab-bar-item {transition: background .2s ease-out;}
+#friends .tab-bar-item:hover {
+    transition: background .2s ease-in;
+	background-color: rgba(0,0,0,0.25) !important;}
+.friends-header {border-bottom-color: rgba(0,0,0,0.25) !important;}
+.markup {backface-visibility: hidden;}
+.chat .new-messages-bar {background-color: rgba(204,97,61,0.9);}
+.chat .new-messages-bar:hover {
+    background-color: rgba(204,97,61,1);}
+.chat .new-messages-bar button:last-child {color: rgba(255,255,255,0.5);}
+.markup .mention {
+    background-color: rgba(255,255,255,.1) !important;
+    color: #ddd;border-radius: 10%;}
+.markup .mention:hover {
+    background-color: rgba(255,255,255,.2) !important;
+    color: #ddd;border-radius: 10%;}
+.message-group a span {color: #5af;text-shadow: 1px 1px 0 #001a33;}
+.chat .markup code {background: rgba(0,0,0,0.3) !important;}
+.chat .markup pre {
+    background: none !important;
+    border: 1px solid rgba(0,0,0,0.5) !important;
+	max-width: 75% !important;}
+.message-group .embed {background-color: rgba(42,42,42,.3);}
+.theme-dark .message-group .embed-wrapper .embed-color-pill {background-color: rgba(42,42,42,.66)}
+.chat .has-more button,.message-group-blocked-btn,
+.message-group-blocked.revealed {background-color: rgba(0,0,0,0.3) !important;}
+.message-group-blocked,.message-group-blocked.revealed {border: none !important;}
+.markup {backface-visibility: unset;}
+.guilds-wrapper .guilds-error::after{
+    content: "";text-indent: 0%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/97/Crystal_Project_Lock.png);
+    background-size: 25px 25px;
+    position: absolute;
+    right: 0;left: 0;bottom: 0;
+    width: 50px;height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;}
+.guilds-wrapper .guilds-error{text-indent: 100%;white-space: nowrap;overflow: hidden;}
+#app-mount > div.tooltips div.tooltip-right.tooltip-red {font-size: 0;max-width: 208px}
+#app-mount > div.tooltips div.tooltip-right.tooltip-red strong:before {
+    font-size: 14px;content: "You have some servers unavailable due to the online usercap being reached or discord is having issues.";}
