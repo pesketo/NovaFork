@@ -50,6 +50,8 @@
 .theme-dark .headerNormal-T_seeN,.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6,.theme-dark .menu-Sp6bN1,.need-help-modal.deprecated .header,.need-help-modal.deprecated .form-inner.loading,
 .need-help-modal.deprecated .footer,.need-help-modal.deprecated .header input[type=text],.theme-dark .headerTop-3C2Zn0 {background: rgba(0, 0, 0, 0.8);}
 
+.theme-dark .activityFeed-28jde9 {background: transparent !important}
+
 .badge {border-radius:50%}
 .guilds-wrapper .scroller-wrap {width:auto !important;}
 .guild-inner:hover,li.active .guild-inner {background-color: rgba(115,139,215,0.5) !important;}
