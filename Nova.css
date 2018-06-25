@@ -8,8 +8,11 @@
     --trans2: hsla(0, 0%, 0%, 0.8); 
     --main-color: rgba(0, 0, 255, 0.9) ;
 }
-.appMount-3VJmYg {background: url(https://i.imgur.com/h0YyOD7.png) center/cover no-repeat;}
 
+@keyframes button	{100%{transform:scale(.90)}50%{transform:scale(1)}} 
+@keyframes buttonM	{100%{transform:scale(.80)}50%{transform:scale(1)}} 
+@keyframes buttonL	{100%{transform:scale(.70)}50%{transform:scale(1)}} 
+.appMount-3VJmYg {background: url(https://i.imgur.com/h0YyOD7.png) center/cover no-repeat;}
 #voice-connection,#friends,.friends-header,.friends-table, 
 .guilds-wrapper,.headerBar-UHpsPw,.guild-header header,.channels-wrap, 
 .private-channels .search-bar,.private-channels,.guild-channels, 
