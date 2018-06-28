@@ -159,7 +159,7 @@
 .theme-dark .header-1RC2Wb {background-color: rgba(25, 26, 27, 0.2);}
 .theme-dark .dockItem-2kQDqg:hover {background-color: #202225;}
 .badge {background-color: rgba(240, 71, 71, 0.6);border-radius: 40%;color: rgba(0, 0, 0, 0.6);font-size: 13px;font-weight: 600;line-height: 12px;border: 1px solid blue}
-.nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {color: rgba(255, 255, 255, 0.9);text-shadow: 0 0 5px black,0 0 5px black,0 0 5px black}
+.nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {color: rgba(255, 255, 255, 0.9);text-shadow: 0 0 5px black,0 0 5px black}
 .guilds-wrapper .guilds-add {background: rgba(0, 0, 0, 0.3);border: 1px dashed rgba(204,97,61,0.9);color: rgba(0, 128, 255, 0.7);}
 .theme-dark .iconForeground-3y9f0B,.theme-dark .searchOption-zQ-1l6 .filter-3Y_im-,.theme-dark .option-96V44q .filter-3Y_im- {color:rgba(0, 128, 255, 0.9)}
 .theme-dark .searchPopout-1vUlP3 {background-color: rgba(0, 0, 0, 0.8);border: none;box-shadow: 0 0 10px 0 rgba(0, 128, 255, 0.9);}
@@ -170,7 +170,7 @@
 .theme-dark .search-results-wrap .search-header {background: rgba(0, 0, 0, 0.6);box-shadow: 0 0 5px 0 rgba(0, 67, 255, 0.7)}
 .theme-dark .inner-zqa7da {background-color: hsla(0, 0%, 0%, 0.5);box-shadow: 0 0 15px 1px rgba(0, 95, 255, 0.8) }
 .innerNoAutocomplete-1WpcVO {border-radius: 20px;}
-.theme-dark .message-group .comment .markup {color: hsla(0, 0%, 100%, 0.8);font-size: 1rem;line-height: 1em;margin-top: 2px;text-shadow:0 0 5px black,0 0 5px black,0 0 5px black,0 0 5px black}
+.theme-dark .message-group .comment .markup {color: hsla(0, 0%, 100%, 0.8);font-size: 1rem;line-height: 1em;margin-top: 2px;text-shadow:0 0 5px black,0 0 5px black,0 0 5px black}
 .theme-dark .membersGroup-v9BXpm {color: #008eea;font-size: 15px;font-weight: 600;
     height: 40px;letter-spacing: .04em;line-height: 20px;overflow: hidden;text-align: center; }
 .theme-dark .autocomplete-1vrmpx {background-color: rgba(0, 0, 0, 0.8);box-shadow: 0 0 5px 0 rgba(0, 95, 255, 0.8)}
