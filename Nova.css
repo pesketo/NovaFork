@@ -59,6 +59,8 @@
 .theme-dark .activityFeed-28jde9 {background: transparent !important}
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {background-color: rgba(0, 0, 0, 0);}
 .badge {border-radius:50%}
+.guilds-wrapper .guilds .friends-online {color: hsla(0, 100%, 50%, 0.7);font-size: 11px;font-weight: 700;}
+.guilds-wrapper .guilds .guild .guild-inner { background: rgba(0, 0, 0, 0.4) !important}
 .guilds-wrapper .scroller-wrap {width:auto !important;}
 .guild-inner:hover,li.active .guild-inner {background-color: rgba(115,139,215,0.5) !important;}
 .guilds-wrapper {width: 80px;}
@@ -347,4 +349,3 @@
   flex-flow: row wrap !important;
   justify-content: safe !important;}
 .friends-table-body[class*="scroller"] .friends-row {min-width: 20%;}
-.guilds-wrapper .guilds .friends-online {color: hsla(0, 100%, 50%, 0.7);font-size: 11px;font-weight: 700;}
