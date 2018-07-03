@@ -50,6 +50,9 @@
  	background: rgba(0, 0, 0, 0.33) !important;} 
 .backdrop-1wrmKB {opacity: 0 !important}
 
+.header-QKLPzZ .lookInverted-2D7oAl.colorBrand-3pXr91 {
+    background-color: rgba(0, 0, 0, 0);
+    color: #ff0000;border: 1px solid blue;}
 .userPopout-3XzG_A {border: 1px solid blue;}
 .theme-dark .quickMessage-1yeL4E {
     background-color: rgba(0, 0, 0, 0.2);
@@ -58,7 +61,7 @@
     #autocomplete-popout .autocomplete-shadow,.popouttop #autocomplete-popout .autocomplete-arrow-wrapper {display:none}
 .quickMessage-2XpSaN {border: 1px solid #0080ff !important;}
 .theme-dark .topSectionNormal-2-vo2m,.theme-dark .body-3ND3kc,#autocomplete-popout header,
-#autocomplete-popout .autocomplete-scroller {background: rgba(0,0,0,0.9) !important;}
+#autocomplete-popout .autocomplete-scroller,.headerPlaying-j0WQBV,.topSectionPlaying-1J5E4n {background: rgba(0,0,0,0.9) !important;}
 .root-SR8cQa{ border: 1px solid red; }
 .theme-dark #autocomplete-popout .row.selected {background: rgba(255, 25, 25, 0.2);}
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4 {
@@ -110,7 +113,7 @@
 .private-channels .channel:hover a, .contentHoveredText-2D9B-x, 
 .contentHoveredVoice-3p_NEO,.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {
     background: rgba(255, 0, 0, 0.2);}
-.contentUnreadText-2vNnZc, .contentUnreadVoice-1dijOt {background: rgba(0, 0, 255, 0.2)}
+.contentUnreadText-2vNnZc, .contentUnreadVoice-1dijOt {background: rgba(255, 0, 0, 0.2)}
 
 #voice-connection {border-top: none;}
 #voice-connection .btn,
