@@ -125,6 +125,10 @@
     }
 .contentUnreadText-2vNnZc, .contentUnreadVoice-1dijOt {background: rgba(255, 0, 0, 0.2)}
 
+.theme-dark .splashArt-1anaP9 {opacity:1;filter:none}
+.theme-dark .splashArt-3yFzRe {width: 100%;filter: grayscale(0%);opacity: 1;-webkit-mask: radial-gradient(100% 100% at top left,hsla(0,0%,100%,.3) 0,hsla(0,0%,100%,.4) 100%)}
+
+
 #voice-connection {border-top: none;}
 #voice-connection .btn,
 .account .btn {
@@ -217,12 +221,11 @@
 .theme-dark .inner-zqa7da {background-color: hsla(0, 0%, 0%, 0.5);box-shadow: 0 0 15px 1px rgba(0, 95, 255, 0.8) }
 .innerNoAutocomplete-1WpcVO {border-radius: 20px;}
 .theme-dark .message-group .comment .markup {color: var(--text);font-size: 1rem;line-height: 1em;margin-top: 2px;text-shadow:0 0 5px black}
-.theme-dark .membersGroup-v9BXpm {color: #008eea;font-size: 15px;font-weight: 600;
-    height: 40px;letter-spacing: .04em;line-height: 20px;overflow: hidden;text-align: center; }
+.theme-dark .membersGroup-v9BXpm {color: #008eea;font-size: 15px;font-weight: 600;height: 40px;letter-spacing: .04em;line-height: 20px;overflow: hidden;text-align: center; }
 .theme-dark .autocomplete-1vrmpx {background-color: rgba(0, 0, 0, 0.8);box-shadow: 0 0 5px 0 rgba(0, 95, 255, 0.8)}
 .theme-dark .selectorSelected-1_M1WV {background-color: rgba(255, 0, 0, 0.2);}
 .private-channels .channel .channel-name {opacity:0.7;text-shadow: 0 0 5px black,0 0 5px black}
-.theme-dark .message-group h2 .timestamp {color: hsla(0, 100%, 50%, 0.6);}
+.theme-dark .timestampCozy-2hLAPV {color: hsla(0, 100%, 50%, 0.6);}
 .chat .avatar-large {-webkit-transition: none;transition:none; }
 .theme-dark .headerText-2niCs_ {border-top-color: rgba(47,49,54,.6);color: hsla(0, 100%, 50%, 0.6);font-size: 22px;text-shadow: 0 0 5px black,0 0 5px black}
 .theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {background-color: rgba(0, 0, 0, 0.5);}
