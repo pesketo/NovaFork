@@ -172,12 +172,11 @@
     transition: background .2s ease-in;
 	background-color: rgba(0,0,0,0.25) !important;}
 .friends-header {border-bottom-color: rgba(0,0,0,0.25) !important;}
-.markup {backface-visibility: hidden;}
 .chat .new-messages-bar {background-color: rgba(204,97,61,0.9);}
 .chat .new-messages-bar:hover {
     background-color: rgba(204,97,61,1);}
 .chat .new-messages-bar button:last-child {color: rgba(255,255,255,0.5);}
-.markup .mention {
+.theme-dark .chat .messages .mention {
     background-color: rgba(255,255,255,.1) !important;
     color: #ddd;border-radius: 10%;}
 .markup .mention:hover {
@@ -193,7 +192,7 @@
 .theme-dark .message-group .embed-wrapper .embed-color-pill {background-color: rgba(42,42,42,.66)}
 .chat .has-more button,.message-group-blocked-btn,.message-group-blocked.revealed {background-color: rgba(0,0,0,0.3) !important;}
 .message-group-blocked,.message-group-blocked.revealed {border: none !important;}
-.markup {backface-visibility: unset;}
+.theme-dark .markup-2BOw-j {backface-visibility: unset;}
 .guilds-wrapper .guilds-error{background: rgba(0, 0, 0, 0.3)}
 .guilds-wrapper .guilds-error::after{
     content: "";text-indent: 0%;background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/97/Crystal_Project_Lock.png);
@@ -220,7 +219,7 @@
 .theme-dark .search-results-wrap .search-header {background: rgba(0, 0, 0, 0.6);box-shadow: 0 0 5px 0 rgba(0, 67, 255, 0.7)}
 .theme-dark .inner-zqa7da {background-color: hsla(0, 0%, 0%, 0.5);box-shadow: 0 0 15px 1px rgba(0, 95, 255, 0.8) }
 .innerNoAutocomplete-1WpcVO {border-radius: 20px;}
-.theme-dark .message-group .comment .markup {color: var(--text);font-size: 1rem;line-height: 1em;margin-top: 2px;text-shadow:0 0 5px black}
+.theme-dark .markup-2BOw-j {color: var(--text);font-size: 1rem;line-height: 1em;margin-top: 2px;text-shadow:0 0 1px black}
 .theme-dark .membersGroup-v9BXpm {color: #008eea;font-size: 15px;font-weight: 600;height: 40px;letter-spacing: .04em;line-height: 20px;overflow: hidden;text-align: center; }
 .theme-dark .autocomplete-1vrmpx {background-color: rgba(0, 0, 0, 0.8);box-shadow: 0 0 5px 0 rgba(0, 95, 255, 0.8)}
 .theme-dark .selectorSelected-1_M1WV {background-color: rgba(255, 0, 0, 0.2);}
