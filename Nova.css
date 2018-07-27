@@ -40,16 +40,16 @@
 .search-bar.search-bar-light,.theme-dark .members-1998pB,.search-results-wrap .results-wrapper {background: transparent !important;}
 .theme-dark .card-2WxYqG {background-color: rgba(54, 57, 63, 0.3)!important;}
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .typeWindows-15E0Ys {background: rgba(0, 0, 0, 0.18) !important;}
-.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover,
-.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {background-color: rgba(0,0,0,0.6) !important;border-color: var(--color) !important}
+.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .containerCozy-jafyvG :hover,
+.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .containerCozy-jafyvG  {background-color: rgba(0,0,0,0.6) !important;border-color: var(--color) !important}
 
 .theme-dark .messagesPopoutWrap-1MQ1bW .header-ykumBX .title-3pkaKd {color: #fff;text-align:center}
 .theme-dark .themedPopout-25DgLi .header-SsaQ8X .title-23FrqZ {color: var(--color2);font-size: 20px;}
 
 .messagesPopoutWrap-1MQ1bW .header-ykumBX,
 .theme-dark .messagesPopoutWrap-1MQ1bW {background-color: rgba(0, 0, 0, 0.9) !important;border: 1px solid var(--color);box-shadow: 0 0 0 0 rgba(0,0,0,0);}
-.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {background-color: rgba(0,0,0,0.4) !important;}
-.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
+.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .containerCozy-jafyvG  .actionButtons-1sUUug .jumpButton-3DTcS_ {background-color: rgba(0,0,0,0.4) !important;}
+.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .containerCozy-jafyvG :hover .actionButtons-1sUUug {
     box-shadow: 0 0 6px 4px rgba(0,0,0,0.4) !important;background: transparent !important;}
 .titleBar-AC4pGV::after {
 	content:"" ;position:absolute;z-index:-1;
@@ -179,17 +179,17 @@
 .theme-dark .chat .messages .mention {
     background-color: rgba(255,255,255,.1) !important;
     color: #ddd;border-radius: 10%;}
-.markup .mention:hover {
+.markup-2BOw-j .mention:hover {
     background-color: rgba(255,255,255,.2) !important;
     color: #ddd;border-radius: 10%;}
-.message-group a span {color: #5af;text-shadow: 1px 1px 0 #001a33;}
-.chat .markup code {background: rgba(0,0,0,0.3) !important;}
-.chat .markup pre {
+.containerCozy-jafyvG  a span {color: #5af;text-shadow: 1px 1px 0 #001a33;}
+.chat .markup-2BOw-j code {background: rgba(0,0,0,0.3) !important;}
+.chat .markup-2BOw-j pre {
     background: none !important;
     border: 1px solid rgba(0,0,0,0.5) !important;
 	max-width: 75% !important;}
-.message-group .embed {background-color: rgba(42,42,42,.3);}
-.theme-dark .message-group .embed-wrapper .embed-color-pill {background-color: rgba(42,42,42,.66)}
+.containerCozy-jafyvG  .embed {background-color: rgba(42,42,42,.3);}
+.theme-dark .containerCozy-jafyvG  .embed-wrapper .embed-color-pill {background-color: rgba(42,42,42,.66)}
 .chat .has-more button,.message-group-blocked-btn,.message-group-blocked.revealed {background-color: rgba(0,0,0,0.3) !important;}
 .message-group-blocked,.message-group-blocked.revealed {border: none !important;}
 .theme-dark .markup-2BOw-j {backface-visibility: unset;}
@@ -208,7 +208,7 @@
 .theme-dark .header-1RC2Wb {background-color: rgba(25, 26, 27, 0.2);}
 .theme-dark .dockItem-2kQDqg:hover {background-color: #202225;}
 .badge {background-color: rgba(240, 71, 71, 0.6);border-radius: 40%;color: rgba(0, 0, 0, 0.6);font-size: 13px;font-weight: 600;line-height: 12px;border: 1px solid var(--color)}
-.nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {color: rgba(255, 255, 255, 0.9);text-shadow: 0 0 5px black,0 0 5px black}
+.nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {color: rgba(255, 255, 255, 0.9);text-shadow: 0 0 5px black}
 .guilds-wrapper .guilds-add {background: rgba(0, 0, 0, 0.3);border: 1px dashed rgba(204,97,61,0.9);color: rgba(0, 128, 255, 0.7);}
 .theme-dark .iconForeground-3y9f0B,.theme-dark .searchOption-zQ-1l6 .filter-3Y_im-,.theme-dark .option-96V44q .filter-3Y_im- {color:var(--color)}
 .theme-dark .searchPopout-1vUlP3 {background-color: rgba(0, 0, 0, 0.8);border: none;box-shadow: 0 0 10px 0 var(--color);}
@@ -225,9 +225,11 @@
 .theme-dark .selectorSelected-1_M1WV {background-color: rgba(255, 0, 0, 0.2);}
 .private-channels .channel .channel-name {opacity:0.7;text-shadow: 0 0 5px black,0 0 5px black}
 .theme-dark .timestampCozy-2hLAPV {color: hsla(0, 100%, 50%, 0.6);}
-.chat .avatar-large {-webkit-transition: none;transition:none; }
+.chat .containerCozy-jafyvG .large-3ChYtB {-webkit-transition: none;transition:none}
 .theme-dark .headerText-2niCs_ {border-top-color: rgba(47,49,54,.6);color: hsla(0, 100%, 50%, 0.6);font-size: 22px;text-shadow: 0 0 5px black,0 0 5px black}
 .theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {background-color: rgba(0, 0, 0, 0.5);}
+.theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline,.theme-dark .markup-2BOw-j pre {background: rgba(0, 0, 0, 0.5);box-shadow: 0 0 2px 0 #2f99ff}
+.messages{background-color: rgba(0,0,0,0.15)}
 
 .nameHoveredText-1uO31y,.nameConnectedText-3CzNQn, .nameConnectedVoice-MHUX5F, 
 .nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {color: #ffffff;text-shadow:0 0 5px black,0 0 5px black;}
@@ -447,11 +449,11 @@
   background-color: hsla(0, 0%, 0%, 0.5);
   box-shadow: 0px 0px 10px 0px  var(--color) !important;}
 #friends .friends-table .friends-row .friends-suggestion-inner {  padding: 20px;}
-#friends .friends-table .friends-row .friends-suggestion-inner .avatar-large {
+#friends .friends-table .friends-row .friends-suggestion-inner .large-3ChYtB {
   border-radius: 5px;
   opacity: 0.6;
   transition: opacity 500ms;}
-#friends .friends-table .friends-row:hover .friends-suggestion-inner .avatar-large {  opacity: 0.7;}
+#friends .friends-table .friends-row:hover .friends-suggestion-inner .large-3ChYtB {  opacity: 0.7;}
 #friends .friends-table .friends-row .friends-suggestion-inner .friends-suggestion-info .discord-tag .username {
   color: hsla(0, 0%, 88%, 0.6);
   width: 100px;
