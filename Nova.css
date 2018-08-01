@@ -193,12 +193,12 @@
 .chat .has-more button,.message-group-blocked-btn,.message-group-blocked.revealed {background-color: rgba(0,0,0,0.3) !important;}
 .message-group-blocked,.message-group-blocked.revealed {border: none !important;}
 .theme-dark .markup-2BOw-j {backface-visibility: unset;}
-.guildsWrapper-5TJh6A .guilds-error{background: rgba(0, 0, 0, 0.3)}
-.guildsWrapper-5TJh6A .guilds-error::after{
+.guildsWrapper-5TJh6A .guildsError-3cFMtY{background: rgba(0, 0, 0, 0.3)}
+.guildsWrapper-5TJh6A .guildsError-3cFMtY::after{
     content: "";text-indent: 0%;background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/97/Crystal_Project_Lock.png);
     background-size: 25px 25px;position: absolute;right: 0;left: 0;bottom: 0;
     width: 50px;height: 50px;background-repeat: no-repeat;background-position: center;}
-.guildsWrapper-5TJh6A .guilds-error{text-indent: 100%;white-space: nowrap;overflow: hidden;}
+.guildsWrapper-5TJh6A .guildsError-3cFMtY{text-indent: 100%;white-space: nowrap;overflow: hidden;}
 #app-mount > div.tooltips div.tooltip-right.tooltip-red {font-size: 0;max-width: 208px}
 #app-mount > div.tooltips div.tooltip-right.tooltip-red strong:before {font-size: 14px;content: "You have servers unavailable due to the online usercap being reached, or discord is having issues.";}
 .theme-dark .member-3W1lQa:hover .content-OzHfo4,.theme-dark .option-96V44q.selected-rZcOL- {background-color: rgba(2, 25, 111, 0.6)}
