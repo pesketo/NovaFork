@@ -18,7 +18,7 @@
 .appMount-3VJmYg {background: url(https://i.imgur.com/h0YyOD7.png) center/cover no-repeat;}
 
 #voice-connection,#friends,.friends-header,.friends-table, 
-.guilds-wrapper,.headerBar-UHpsPw,.guild-header header,.channels-wrap, 
+.guildsWrapper-5TJh6A,.headerBar-UHpsPw,.guild-header header,.channels-wrap, 
 .private-channels .search-bar,.private-channels,.guild-channels, 
 .account,.friend-table-add-header,.chat,.content,.title-wrap:not(.search-bar), 
 .messages-wrapper,.messages .divider span,.messages .divider:before,.content, .message-group-blocked, 
@@ -80,7 +80,7 @@
 ::-webkit-scrollbar-thumb {border: 1px solid var(--color) !important;background-color: hsla(0, 0%, 0%, 1) !important}
 ::-webkit-scrollbar-track-piece {background-color: hsla(0, 0%, 0%, 0) !important;border:none !important}
 
-.guilds-wrapper .scroller-wrap ::-webkit-scrollbar-thumb,#autocomplete-popout ::-webkit-scrollbar-track,#autocomplete-popout ::-webkit-scrollbar-thumb {visibility: hidden !important;}
+.guildsWrapper-5TJh6A .scroller-wrap ::-webkit-scrollbar-thumb,#autocomplete-popout ::-webkit-scrollbar-track,#autocomplete-popout ::-webkit-scrollbar-thumb {visibility: hidden !important;}
 
 .theme-dark .headerNormal-T_seeN,.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6,.need-help-modal.deprecated .header,.need-help-modal.deprecated .form-inner.loading,
 .need-help-modal.deprecated .footer,.need-help-modal.deprecated .header input[type=text] {background: rgba(0, 0, 0, 0.8);}
@@ -88,16 +88,16 @@
 
 .theme-dark .activityFeed-28jde9 {background: transparent !important}
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {background-color: rgba(0, 0, 0, 0);}
-.badge {border-radius:50%}
-.guilds-wrapper .guilds .friends-online {color: hsla(0, 100%, 50%, 0.7);font-size: 11px;font-weight: 700;}
-.guilds-wrapper .guilds .guild .guild-inner { background: rgba(0, 0, 0, 0.4) !important}
-.guilds-wrapper .scroller-wrap {width:auto !important;}
-.guild-inner:hover,li.active .guild-inner {background-color: rgba(115,139,215,0.5) !important;}
-.guilds-wrapper {width: 80px;}
-.guilds-wrapper .guilds .guild.unread:before {background-color: rgba(255,0,0,0.25);}
-.guilds-wrapper .guilds .guild.selected:before {background-color: rgba(0, 0, 0, 0);}
-.guilds-wrapper .guilds .guild.selected:before,
-.guilds-wrapper .guilds .guild.unread:before {
+.badge-1GsMF2 {border-radius:50%}
+.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM {color: hsla(0, 100%, 50%, 0.7);font-size: 11px;font-weight: 700;}
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 { background: rgba(0, 0, 0, 0.4) !important}
+.guildsWrapper-5TJh6A .scroller-wrap {width:auto !important;}
+.guildInner-3DSoA4:hover,li.active .guildInner-3DSoA4 {background-color: rgba(115,139,215,0.5) !important;}
+.guildsWrapper-5TJh6A {width: 80px;}
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {background-color: rgba(255,0,0,0.25);}
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {background-color: rgba(0, 0, 0, 0);}
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before,
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {
     border-radius: 20%;
     width: 60px;height: 55px;
     margin-top: -27px;margin-left: 10px;
@@ -193,12 +193,12 @@
 .chat .has-more button,.message-group-blocked-btn,.message-group-blocked.revealed {background-color: rgba(0,0,0,0.3) !important;}
 .message-group-blocked,.message-group-blocked.revealed {border: none !important;}
 .theme-dark .markup-2BOw-j {backface-visibility: unset;}
-.guilds-wrapper .guilds-error{background: rgba(0, 0, 0, 0.3)}
-.guilds-wrapper .guilds-error::after{
+.guildsWrapper-5TJh6A .guilds-error{background: rgba(0, 0, 0, 0.3)}
+.guildsWrapper-5TJh6A .guilds-error::after{
     content: "";text-indent: 0%;background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/97/Crystal_Project_Lock.png);
     background-size: 25px 25px;position: absolute;right: 0;left: 0;bottom: 0;
     width: 50px;height: 50px;background-repeat: no-repeat;background-position: center;}
-.guilds-wrapper .guilds-error{text-indent: 100%;white-space: nowrap;overflow: hidden;}
+.guildsWrapper-5TJh6A .guilds-error{text-indent: 100%;white-space: nowrap;overflow: hidden;}
 #app-mount > div.tooltips div.tooltip-right.tooltip-red {font-size: 0;max-width: 208px}
 #app-mount > div.tooltips div.tooltip-right.tooltip-red strong:before {font-size: 14px;content: "You have servers unavailable due to the online usercap being reached, or discord is having issues.";}
 .theme-dark .member-3W1lQa:hover .content-OzHfo4,.theme-dark .option-96V44q.selected-rZcOL- {background-color: rgba(2, 25, 111, 0.6)}
@@ -207,9 +207,9 @@
 .theme-dark .dockItem-2kQDqg:hover {background-color: rgba(54, 57, 63, 0) !important;color: #ffffff;border: 1px dotted red;}
 .theme-dark .header-1RC2Wb {background-color: rgba(25, 26, 27, 0.2);}
 .theme-dark .dockItem-2kQDqg:hover {background-color: #202225;}
-.badge {background-color: rgba(240, 71, 71, 0.6);border-radius: 40%;color: rgba(0, 0, 0, 0.6);font-size: 13px;font-weight: 600;line-height: 12px;border: 1px solid var(--color)}
+.badge-1GsMF2 {background-color: rgba(240, 71, 71, 0.6);border-radius: 40%;color: rgba(0, 0, 0, 0.6);font-size: 13px;font-weight: 600;line-height: 12px;border: 1px solid var(--color)}
 .nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {color: rgba(255, 255, 255, 0.9);text-shadow: 0 0 5px black}
-.guilds-wrapper .guilds-add {background: rgba(0, 0, 0, 0.3);border: 1px dashed rgba(204,97,61,0.9);color: rgba(0, 128, 255, 0.7);}
+.guildsWrapper-5TJh6A .guildsAdd-21_IdK {background: rgba(0, 0, 0, 0.3);border: 1px dashed rgba(204,97,61,0.9);color: rgba(0, 128, 255, 0.7);}
 .theme-dark .iconForeground-3y9f0B,.theme-dark .searchOption-zQ-1l6 .filter-3Y_im-,.theme-dark .option-96V44q .filter-3Y_im- {color:var(--color)}
 .theme-dark .searchPopout-1vUlP3 {background-color: rgba(0, 0, 0, 0.8);border: none;box-shadow: 0 0 10px 0 var(--color);}
 .theme-dark .searchOption-zQ-1l6 .answer-1n6g43,.theme-dark .option-96V44q .answer-1n6g43 {color: rgba(204,97,61,0.9);}
@@ -358,7 +358,7 @@
 	box-shadow: 0px 0px 20px 0px  var(--color) ;
 	animation: button 80ms }
 #friends .friends-table .friends-table-body { padding: 0;}
-#friends .friends-header .tab-bar .tab-bar-item .badge {
+#friends .friends-header .tab-bar .tab-bar-item .badge-1GsMF2 {
   background: hsla(0, 0%, 0%, 0.4) !important;
   color:  var(--color) !important;
   opacity: 0.7;
