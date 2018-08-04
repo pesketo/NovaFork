@@ -159,7 +159,7 @@
 .theme-dark .side-8zPYf6 .item-PXvHYJ:hover,.side-8zPYf6 .itemSelected-1qLhcL {background: var(--color2)}
 .theme-dark .itemDefault-3Jdr52, .theme-dark .itemHover-EnbcjT {color: #fff;}
 
-.theme-dark .h5-18_1nd {text-align:center;color:#fff;font-size:16px}
+.theme-dark .h5-18_1nd {color:#fff;font-size:16px}
 
 .tooltip.tooltip-black {background:rgba(0, 0, 0, 0.9);color: #fff;border:none;box-shadow: 0 0 5px 1px rgba(185, 47, 0, 0.9)}
 .tooltip.tooltip-black:after {display:none}
