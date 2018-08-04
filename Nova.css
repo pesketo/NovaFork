@@ -16,7 +16,7 @@
 @keyframes statuspicker {from {opacity: 0;transform: translate(0, 50%);}to {opacity: 1;}}
 
 .appMount-3VJmYg {background: url(https://i.imgur.com/h0YyOD7.png) center/cover no-repeat;}
-
+.theme-dark .messageGroupBlocked-3wrQQX {display:none}
 #voice-connection,#friends,.friends-header,.friends-table, 
 .guildsWrapper-5TJh6A,.headerBar-UHpsPw,.guild-header header,.channels-wrap, 
 .private-channels .search-bar,.private-channels,.guild-channels, 
