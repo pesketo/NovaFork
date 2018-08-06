@@ -299,7 +299,7 @@
 
 /* Titlebar */
 .wordmark-2iDDfm,.winButtonMinMax-PBQ2gm svg, .winButtonClose-1HsbF- svg {display: none}
-.titleBar-AC4pGV:after {background:transparent !important;content:"";position:absolute;height:15px;width:100vw;top:-2px;right:0;-webkit-app-region:drag}
+.titleBar-AC4pGV:after {position:relative;background:transparent !important;content:"";height:15px;width:100vw;top:-2px;right:0;-webkit-app-region:drag}
 .titleBar-AC4pGV{position:absolute;top:0;right:0;padding:10px 4px 0 0;-webkit-app-region:no-drag;z-index:201}
 .winButtonMinMax-PBQ2gm {background: url("https://cdn.discordapp.com/attachments/406778960484237322/406779041064943617/btn-maximize.svg") center}
 .winButtonMinMax-PBQ2gm:last-child {background: url("https://cdn.discordapp.com/attachments/406778960484237322/406779041409138688/btn-minimize.svg") center}
