@@ -288,8 +288,8 @@
     border: 1px solid #ff0000 !important;
     height: 20px !important}
 .theme-dark .select-2TCrqx .Select-control {background: rgba(0,0,0,.6);border: 1px solid rgba(255, 0, 0, 0.8)}
-
-
+/* Library*/
+.theme-dark .gameLibrary-TTDw4Y {background-color: rgba(0, 0, 0, 0)}
 /* TITLE BAR */
 #app-mount .titleWrapper-3Vi_wz > div{margin-right: 98px !important;}
 .activityFeed--1mYMS .iconMargin-2Js7V9,.theme-dark .activityFeed-HeiGwL  .iconMargin-2Js7V9 ,
