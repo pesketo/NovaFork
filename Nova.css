@@ -95,7 +95,7 @@
 .guildsWrapper-5TJh6A .scroller-wrap {width:auto !important;}
 .guildInner-3DSoA4:hover,li.active .guildInner-3DSoA4 {background-color: rgba(115,139,215,0.5) !important;}
 .guildsWrapper-5TJh6A {width: 80px;}
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {background-color: rgba(255,0,0,0.25);}
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {background-color: rgba(255,0,0,0.25);z-index:-1}
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {background-color: rgba(0, 0, 0, 0);}
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before,
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {
@@ -188,7 +188,6 @@
     background-color: rgba(255,255,255,.2) !important;
     color: #ddd;border-radius: 10%;}
 .containerCozy-jafyvG  a span {color: #5af;text-shadow: 1px 1px 0 #001a33;}
-.chat-3bRxxu .markup-2BOw-j code {background: rgba(0,0,0,0.3) !important;}
 .chat-3bRxxu .markup-2BOw-j pre {
     background: none !important;
     border: 1px solid rgba(0,0,0,0.5) !important;
@@ -223,7 +222,7 @@
 #app-mount .search-results-wrap .search-header {border:none;background-color: rgba(0, 0, 0, 0.85);box-shadow: 0 0 5px 0 rgba(0, 67, 255, 0.7)}
 #app-mount .inner-zqa7da {background-color: hsla(0, 0%, 0%, 0.5);box-shadow: 0 0 15px 1px rgba(0, 95, 255, 0.8) }
 .innerNoAutocomplete-1WpcVO {border-radius: 20px;}
-#app-mount .markup-2BOw-j {color: var(--text);font-size: 1rem;line-height: 1em;margin-top: 2px;text-shadow:0 0 1px black}
+#app-mount .markup-2BOw-j {color: var(--text);font-size: 1rem;margin-top: 2px;text-shadow:0 0 1px black;}
 #app-mount .membersGroup-v9BXpm {color: #008eea;font-size: 15px;font-weight: 600;height: 40px;letter-spacing: .04em;line-height: 20px;overflow: hidden;text-align: center; }
 #app-mount .autocomplete-1vrmpx {background-color: rgba(0, 0, 0, 0.8);box-shadow: 0 0 5px 0 rgba(0, 95, 255, 0.8)}
 #app-mount .selectorSelected-1_M1WV {background-color: rgba(255, 0, 0, 0.2);}
@@ -235,7 +234,7 @@
 #app-mount .searchAnswer-3Dz2-q, #app-mount .searchFilter-2ESiM3 {background-color: rgba(0, 0, 0, 0.5);}
 #app-mount .markup-2BOw-j code, #app-mount .markup-2BOw-j code.inline,.theme-dark .markup-2BOw-j pre {background: rgba(0, 0, 0, 0.5) !important;box-shadow: 0 0 2px 0 #2f99ff}
 .messages-3amgkR{background-color: rgba(0,0,0,0.15)}
-
+#app-mount .markup-2BOw-j code.inline{line-height:2em}
 .nameHoveredText-1uO31y,.nameConnectedText-3CzNQn, .nameConnectedVoice-MHUX5F, 
 .nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {color: #ffffff;text-shadow:0 0 5px black,0 0 5px black;}
 
