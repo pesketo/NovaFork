@@ -6,16 +6,6 @@
     --color2: hsla(0, 100%, 50%, 0.9) ;
     --trans2: hsla(0, 0%, 0%, 0.8); 
 }
-:root {
-	--chatbg:rgba(0,0,0,.0); /* Chat background darkness */
-	--text: rgb(255, 255, 255); /* Chat text colour */
-    --round: 25%;	/* Overall icon roundness */
-	--size1: 55px; /* Avatar Size */
-	--round1: 25%;  /* Chat Avatar roundness 50% Circle. */
-	--margin1: 0px; /* Margin left/right */
-	--margin2: 0px; /* Margin top/bottom */
-	--shadow1: 0 0 1px #000; /* Shadow for transparent themes. */
-}
 @keyframes button	{100%{transform:scale(.90)}50%{transform:scale(1)}} 
 @keyframes buttonM	{100%{transform:scale(.80)}50%{transform:scale(1)}} 
 @keyframes buttonL	{100%{transform:scale(.70)}50%{transform:scale(1)}} 
