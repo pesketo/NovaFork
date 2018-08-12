@@ -4,3 +4,14 @@
    Credit to DinosParkour for original theme. */
    
 @import url(https://satoru8.github.io/NovaFork/Nova.css)
+
+:root {
+	--chatbg:rgba(0,0,0,.0); /* Chat background darkness */
+	--text: rgb(255, 255, 255); /* Chat text colour */
+    --round: 25%;	/* Overall icon roundness */
+	--size1: 55px; /* Avatar Size */
+	--round1: 25%;  /* Chat Avatar roundness 50% Circle. */
+	--margin1: 0px; /* Margin left/right */
+	--margin2: 0px; /* Margin top/bottom */
+	--shadow1: 0 0 1px #000; /* Shadow for transparent themes. */
+}
