@@ -15,6 +15,9 @@
 /* Main background/Transparency */
 .appMount-3VJmYg {background: url(https://i.imgur.com/h0YyOD7.png) center/cover no-repeat}
 .messages-3amgkR{background-color: var(--chatbg)}
+.homeIcon-1FoKUJ g{display:none}
+svg.homeIcon-1FoKUJ{background: url(https://i.imgur.com/pIiNaUN.gif) no-repeat center/cover}
+
 
 #app-mount .messageGroupBlocked-3wrQQX {display:none}
 
