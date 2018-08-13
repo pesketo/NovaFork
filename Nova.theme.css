@@ -1,17 +1,24 @@
 //META{"name":"Nova Fork","description":"Explore the galaxy with a chilling theme. Please use the support server listed below if you need any help.","author":"Satoru","version":"1.4","website":"http://discord.gg/fjvwb95"}*//{}
 
 /* This is my fork of Nova. I will update/add to this and fix anything that breaks.
-   Credit to DinosParkour for original theme. */
+   Credit to DinosParkour for original theme. 
+   
+   User settings can be adjusted below.
+   If you want to remove an addon, just delete the import for it.
+*/   
    
 @import url(https://satoru8.github.io/NovaFork/Nova.css);
+@import url(https://satoru8.github.io/Addons/MemberlistPopout.css);
+
+.appMount-3VJmYg {background: url(https://i.imgur.com/h0YyOD7.png) center/cover no-repeat}; /* Background */
 
 :root {
-	--chatbg:rgba(0,0,0,.0); /* Chat background darkness */
+	--chatbg: rgba(0,0,0,.0); /* Chat background darkness */
 	--text: rgb(255, 255, 255); /* Chat text colour */
-    --round: 25%;	/* Overall icon roundness */
-	--size1: 55px; /* Avatar Size */
-	--round1: 25%;  /* Chat Avatar roundness 50% Circle. */
-	--margin1: 0px; /* Margin left/right */
-	--margin2: 0px; /* Margin top/bottom */
+    --round: 30%;	/* Overall icon roundness */
+	--size1: 50px; /* Avatar Size */
+	--round1: 30%;  /* Chat Avatar roundness 50% Circle. */
+	--margin1: 0px; /* Chat avatar Margin left/right */
+	--margin2: 0px; /*Chat avatar Margin top/bottom */
 	--shadow1: 0 0 1px #000; /* Shadow for transparent themes. */
 }
