@@ -10,11 +10,9 @@
 @import url(https://satoru8.github.io/NovaFork/Nova.css);
 @import url(https://satoru8.github.io/Addons/MemberlistPopout.css);
 
-.appMount-3VJmYg {background: url(https://i.imgur.com/h0YyOD7.png) center/cover no-repeat}; /* Background */
-
 :root {
 	--chatbg: rgba(0,0,0,.0); /* Chat background darkness */
-	--text: rgb(255, 255, 255); /* Chat text colour */
+	--text: #fff; /* Chat text colour */
     --round: 30%;	/* Overall icon roundness */
 	--size1: 50px; /* Avatar Size */
 	--round1: 30%;  /* Chat Avatar roundness 50% Circle. */
@@ -22,3 +20,4 @@
 	--margin2: 0px; /*Chat avatar Margin top/bottom */
 	--shadow1: 0 0 1px #000; /* Shadow for transparent themes. */
 }
+.appMount-3VJmYg {background: url(https://i.imgur.com/h0YyOD7.png) center/cover no-repeat}; /* Background */
