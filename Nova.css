@@ -232,21 +232,14 @@ svg.homeIcon-1FoKUJ{background: url(https://i.imgur.com/pIiNaUN.gif) no-repeat c
 #app-mount #bd-settings-sidebar .ui-tab-bar-header,.theme-dark .header-2RyJ0Y,.iconCollapsed-3hFp_8,
 .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H,.nameHovered-1gxhWH,.iconHovered-2L3-fB,
 .iconHoveredCollapsed-3caIIZ, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB {
-    color: var(--color2);
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 600;
-    text-align:center
-}
+    color: var(--color2);font-size: 14px;
+    line-height: 16px;font-weight: 600;text-align:center}
 #bda-qem button { border: none !important;
     border-left: none !important;
     background: rgba(0, 0, 0, 0.7) !important;
-    color:var(--color);
-    font-size:16px;
-    font-weight:600}
+    color:var(--color);font-size:16px;font-weight:600}
 .emojiPicker-3m1S-j, #bda-qem-twitch-container, #bda-qem-favourite-container {
- background: rgba(0, 0, 0, 0.9) !important;
- border: 1px solid #ff0000}
+ background: rgba(0, 0, 0, 0.9) !important;border: 1px solid #ff0000}
 
 .search-bar.search-bar-light .search-bar-inner {
     background-color: rgba(0, 0, 0, 0.3);
@@ -266,6 +259,8 @@ svg.homeIcon-1FoKUJ{background: url(https://i.imgur.com/pIiNaUN.gif) no-repeat c
 .theme-dark .select-2TCrqx .Select-control {background: rgba(0,0,0,.6);border: 1px solid rgba(255, 0, 0, 0.8)}
 .theme-dark .embedInner-1-fpTo {background-color: rgba(0, 0, 0, 0.3);border-color: rgb(62, 7, 2)}
 
+.theme-dark .base-34jWEe {height: 50px;background-image: none;border-color: hsla(0,0%,100%,.0)}
+.theme-dark .base-34jWEe h1 {color: #d2d2d2;font-size: 18px;font-weight: 600;text-align: center}
 
 div[class^=container-] div[class*=wrapper] > div[class*=name] {text-align: center;display: flex;justify-content: center;align-items: center;overflow: hidden;opacity:.8}
 div[class^=container-] div[class*=wrapper] > div[class*=name]:before, div[class^=container-] div[class*=wrapper] > div[class*=name]:after {content: ""; width: 100%;vertical-align: middle;height: 1px;background:red;display: inline-block; margin: 0 5px}
