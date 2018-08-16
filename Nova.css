@@ -123,8 +123,8 @@ svg.homeIcon-1FoKUJ{background: url(https://i.imgur.com/pIiNaUN.gif) no-repeat c
 .contentHoveredVoice-3p_NEO,.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {background: rgba(255, 0, 0, 0.5)}
 .contentUnreadText-2vNnZc, .contentUnreadVoice-1dijOt {background: rgba(255, 0, 0, 0.2)}
 
-.theme-dark .reaction.reaction-me {background: rgba(0, 0, 0, 0.4);border:1px solid red}
-.theme-dark .reaction {background: rgba(0, 0, 0, 0.4);border:1px solid blue}
+.theme-dark .reaction-1ELvT8.reactionMe-23mbRf {background: rgba(0, 0, 0, 0.4);border:1px solid red}
+.theme-dark .reaction-1ELvT8 {background: rgba(0, 0, 0, 0.4);border:1px solid blue}
 
 .theme-dark .isMentioned-N-h9aa {background: linear-gradient(90deg,hsl(4, 88%, 14%) 20%,hsl(216, 89%, 15%))}
 .isMentioned-N-h9aa {margin: -.1rem 0rem .1rem}
