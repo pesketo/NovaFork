@@ -249,6 +249,10 @@ svg.homeIcon-1FoKUJ{background: url(https://i.imgur.com/pIiNaUN.gif) no-repeat c
 .theme-dark .base-34jWEe {height: 50px;background-image: none;border-color: hsla(0,0%,100%,.0)}
 .theme-dark .base-34jWEe h1 {color: #d2d2d2;font-size: 18px;font-weight: 600;text-align: center}
 
+/* Channels */
+.container-1UB9sr {background: transparent;border-bottom:none;padding:0}
+.inner-btChU7 .channel-SEolQq {opacity:1;color:red}
+
 /* Guilds */
 .theme-dark .guildSeparator-1X4GQ1:after {display:none}
 .guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM {color: hsla(0, 100%, 50%, 0.7);font-size: 11px;font-weight: 700;}
