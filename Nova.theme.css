@@ -9,6 +9,7 @@
    
 @import url(https://satoru8.github.io/NovaFork/Nova.css);
 @import url(https://satoru8.github.io/Addons/MemberlistPopout.css);
+@import url(https://satoru8.github.io/Addons/Library.css);
 
 :root {
 	--chatbg: rgba(0,0,0,.0); /* Chat background darkness */
