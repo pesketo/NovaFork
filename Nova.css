@@ -139,7 +139,7 @@ svg.homeIcon-1FoKUJ{background: url(https://i.imgur.com/pIiNaUN.gif) no-repeat c
 .theme-dark .dividerEnabled-2TTlcf {display:none}
 .theme-dark .channelTextArea-rNsIhG{border:none}
 .theme-dark .timestampCompact-MHgFLv{color:rgba(255, 0, 0, 0.84)}
-.containerCompact-3V0ioj {padding: 0;}
+.containerCompact-3V0ioj {padding: 2px 0}
 #app-mount .message-2qRu38 {background: rgba(60, 60, 60, 0.7)}
 .chat-3bRxxu .newMessagesBar-mujexs {background: linear-gradient(90deg,hsla(4, 88%, 14%, 0.9) 20%,hsla(216, 89%, 15%, 0.9));left:300px;right:300px}
 .theme-dark .jumpToPresentBar-9P20AM {background: linear-gradient(90deg,hsla(4, 88%, 14%, 0.9) 20%,hsla(216, 89%, 15%, 0.9));left:270px;right:370px}
