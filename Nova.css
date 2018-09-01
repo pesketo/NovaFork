@@ -26,11 +26,11 @@ svg.homeIcon-1FoKUJ{background: url(https://i.imgur.com/pIiNaUN.gif) no-repeat c
 .backdrop-1wrmKB {opacity: .2 !important}
 
 #voice-connection,#friends,.friends-header,.friends-table, .guildsWrapper-5TJh6A,.headerBar-UHpsPw,.guild-header header,
-.private-channels .search-bar, .friend-table-add-header,.content-yTz4x3,.title-wrap:not(.search-bar),
+.private-channels .search-bar, .friend-table-add-header,.content-yTz4x3,.title-wrap:not(.search-bar),.theme-dark .tiles-2aXG_k,
 .messagesWrapper-3lZDfY,.messages-3amgkR .divider-3gKybi span,.messages-3amgkR .divider-3gKybi:before,.content-yTz4x3, .messageGroupBlocked-3wrQQX,
 .is-local-bot-message,.channel-members-loading, .channel-members-loading .heading,.channel-members-loading .member,
 .container-RYiLUQ,.theme-dark .ui-standard-sidebar-view, #app-mount .ui-standard-sidebar-view .sidebar-region,
-#app-mount .ui-standard-sidebar-view .content-region,.theme-dark .chat-3bRxxu form,
+#app-mount .ui-standard-sidebar-view .content-region,.theme-dark .chat-3bRxxu form,.theme-dark .wrapper-29NfPK,.video-1FfuMD,
 .channels-3g2vYe,.theme-dark .friends-table, #app-mount .messagesWrapper-3lZDfY,.content-yTz4x3 .flex-spacer,
 #app-mount .chat-3bRxxu>.content,.theme-dark .chat-3bRxxu,.channel-members, .search .search-bar,.container-iksrDt,.container-3lnMWU,.theme-dark .title-qAcLxz,
 #app-mount .typing-3eiiL_,.container-2OU7Cz,.theme-dark .activityFeed-HeiGwL,#app-mount .headerBar-cxbhPD,.theme-dark .lfg-3xoFkI,
@@ -94,9 +94,9 @@ svg.homeIcon-1FoKUJ{background: url(https://i.imgur.com/pIiNaUN.gif) no-repeat c
 .search-result,.tab-bar-item:hover {background: rgba(0, 0, 0, 0.2) !important}
 
 #app-mount .friends-table .messages-3amgkR .divider-3gKybi:not(.red) span,
-#app-mount .messagesWrapper-3lZDfY .messages-3amgkR .divider-3gKybi:not(.red) span {color: rgb(255, 0, 0)}
+#app-mount .messagesWrapper-3lZDfY .messages-3amgkR .divider-3gKybi:not(.red) span {color: rgb(255, 0, 0);}
 #app-mount .friends-table .messages-3amgkR .divider-3gKybi:not(.red) div,
-#app-mount .messagesWrapper-3lZDfY .messages-3amgkR .divider-3gKybi:not(.red) div {background: var(--color)}
+#app-mount .messagesWrapper-3lZDfY .messages-3amgkR .divider-3gKybi:not(.red) div {background: none}
 
 #app-mount .private-channels .channel.selected a{background: rgba(255, 0, 0, 0.3)}
 .private-channels .channel:hover a, .contentHoveredText-2D9B-x,
