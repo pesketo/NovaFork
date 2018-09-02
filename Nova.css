@@ -28,18 +28,7 @@
 svg.homeIcon-1FoKUJ{background: url(https://i.imgur.com/pIiNaUN.gif) no-repeat center/cover}
 .backdrop-1wrmKB {opacity: .2 !important}
 
-#voice-connection,#friends,.friends-header,.friends-table, .guildsWrapper-5TJh6A,.headerBar-UHpsPw,.guild-header header,
-.private-channels .search-bar, .friend-table-add-header,.content-yTz4x3,.title-wrap:not(.search-bar),#app-mount .tiles-2aXG_k,
-.messagesWrapper-3lZDfY,.messages-3amgkR .divider-3gKybi span,.messages-3amgkR .divider-3gKybi:before,.content-yTz4x3, .messageGroupBlocked-3wrQQX,
-.is-local-bot-message,.channel-members-loading, .channel-members-loading .heading,.channel-members-loading .member,
-.container-RYiLUQ,#app-mount .ui-standard-sidebar-view, #app-mount .ui-standard-sidebar-view .sidebar-region,
-#app-mount .ui-standard-sidebar-view .content-region,#app-mount .chat-3bRxxu form,#app-mount .wrapper-29NfPK,.video-1FfuMD,
-.channels-3g2vYe,#app-mount .friends-table, #app-mount .messagesWrapper-3lZDfY,.content-yTz4x3 .flex-spacer,
-#app-mount .chat-3bRxxu>.content,#app-mount .chat-3bRxxu,.channel-members, .search .search-bar,.container-iksrDt,.container-3lnMWU,#app-mount .title-qAcLxz,
-#app-mount .typing-3eiiL_,.container-2OU7Cz,#app-mount .activityFeed-HeiGwL,#app-mount .headerBar-cxbhPD,#app-mount .lfg-3xoFkI,
-.video-3lOWa6,#app-mount .private-channel-call,.container-2lgZY8,.channels-Ie2l6A,.container-PNkimc,.container-2Thooq,
-#app-mount .title-3qD0b-,#app-mount .typing-2GQL18,.search-bar.search-bar-light,#app-mount .members-1998pB,.search-results-wrap .results-wrapper,
-#app-mount .messageGroupWrapper-o-Zw7G:hover,#app-mount .layer-3QrUeG {background: transparent !important}
+#voice-connection, #friends, .friends-header, .friends-table, .guildsWrapper-5TJh6A, .headerBar-UHpsPw, .guild-header header, .private-channels .search-bar, .friend-table-add-header, .content-yTz4x3, .title-wrap:not(.search-bar), #app-mount .tiles-2aXG_k, .messagesWrapper-3lZDfY, .messages-3amgkR .divider-3gKybi span, .messages-3amgkR .divider-3gKybi:before, .content-yTz4x3, .messageGroupBlocked-3wrQQX, .is-local-bot-message, .channel-members-loading, .channel-members-loading .heading, .channel-members-loading .member, .container-RYiLUQ, #app-mount .ui-standard-sidebar-view, #app-mount .ui-standard-sidebar-view .sidebar-region, #app-mount .ui-standard-sidebar-view .content-region, #app-mount .chat-3bRxxu form, #app-mount .wrapper-29NfPK, .video-1FfuMD, .channels-3g2vYe, #app-mount .friends-table, #app-mount .messagesWrapper-3lZDfY, .content-yTz4x3 .flex-spacer, #app-mount .chat-3bRxxu>.content, #app-mount .chat-3bRxxu, .channel-members, .search  .container-iksrDt, .container-3lnMWU, #app-mount .title-qAcLxz, #app-mount .typing-3eiiL_, .container-2OU7Cz, #app-mount .activityFeed-HeiGwL, #app-mount .headerBar-cxbhPD, #app-mount .lfg-3xoFkI, .video-3lOWa6, #app-mount .private-channel-call, .container-2lgZY8, .channels-Ie2l6A, .container-PNkimc, .container-2Thooq, #app-mount .title-3qD0b-, #app-mount .typing-2GQL18, .search-bar.search-bar-light, #app-mount .members-1998pB, .search-results-wrap .results-wrapper, #app-mount .messageGroupWrapper-o-Zw7G:hover, #app-mount .layer-3QrUeG {background: transparent !important}
 #app-mount .card-2WxYqG {background-color: rgba(54, 57, 63, 0.3)}
 #app-mount .layers-3iHuyZ, .typeWindows-15E0Ys {background: rgba(0, 0, 0, 0.1) }
 
@@ -138,12 +127,13 @@ svg.homeIcon-1FoKUJ{background: url(https://i.imgur.com/pIiNaUN.gif) no-repeat c
 .friends-header {border-bottom-color: rgba(0,0,0,0.25)}
 
 /* Msg Area */
+.isCompact-1hsne1 .usernameWrapper-1S-G5O {padding-right:7px}
 #app-mount .embedPill-1Zntps {background-color: rgba(195, 0, 0, 0.5)}
 #app-mount .edited-DL9ECl {color: #5af}
 #app-mount .dividerEnabled-2TTlcf {display:none}
 #app-mount .channelTextArea-rNsIhG{border:none}
-#app-mount .timestampCompact-MHgFLv{color:rgba(255, 0, 0, 0.84)}
-.containerCompact-3V0ioj {padding: 2px 0}
+#app-mount .timestampCompact-MHgFLv{color:rgba(255, 0, 0, 0.8)}
+.containerCompact-3V0ioj {padding:0}
 #app-mount .message-2qRu38 {background: rgba(60, 60, 60, 0.7)}
 .chat-3bRxxu .newMessagesBar-mujexs {background: linear-gradient(90deg,hsla(4, 88%, 14%, 0.9) 20%,hsla(216, 89%, 15%, 0.9));left:180px;right:180px}
 #app-mount .jumpToPresentBar-9P20AM {background: linear-gradient(90deg,hsla(4, 88%, 14%, 0.9) 20%,hsla(216, 89%, 15%, 0.9));left:200px;right:200px}
@@ -181,7 +171,8 @@ svg.homeIcon-1FoKUJ{background: url(https://i.imgur.com/pIiNaUN.gif) no-repeat c
 #app-mount .headerText-2niCs_ {border-top-color: rgba(47,49,54,.6);color: hsla(0, 100%, 50%, 0.6);font-size: 22px;text-shadow: 0 0 5px black}
 #app-mount .searchAnswer-3Dz2-q, #app-mount .searchFilter-2ESiM3 {background-color: rgba(0, 0, 0, 0.5)}
 #app-mount .markup-2BOw-j code, #app-mount .markup-2BOw-j code.inline,#app-mount .markup-2BOw-j pre {background: rgba(0, 0, 0, 0.5) ;box-shadow: 0 0 2px 0 #2f99ff}
-#app-mount .markup-2BOw-j code.inline{line-height:2em}
+#app-mount .markup-2BOw-j code.inline{line-height:1.7em;padding: .08em}
+.embedFieldValue-nELq2s {margin-left:.2em}
 .nameHoveredText-1uO31y,.nameConnectedText-3CzNQn, .nameConnectedVoice-MHUX5F,
 .nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {color: #ffffff;text-shadow:0 0 5px black}
 
@@ -191,7 +182,6 @@ svg.homeIcon-1FoKUJ{background: url(https://i.imgur.com/pIiNaUN.gif) no-repeat c
 .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller::-webkit-scrollbar-thumb {border-color: red }
 #app-mount .bda-slist li {background: rgba(0, 0, 0, 0.6);border: none ;box-shadow: 0 0 5px 0px hsla(0, 100%, 50%, 0.9)}
 #app-mount .bda-slist li:hover { box-shadow: 0 0 5px 1px hsla(240, 100%, 50%, 0.8);transform: scale(1.02)}
-
 #app-mount .searchBar-1MOL6S {background-color: rgba(0, 0, 0, 0.7)}
 
 #app-mount #bd-settings-sidebar .ui-tab-bar-header,#app-mount .header-2RyJ0Y,.iconCollapsed-3hFp_8,
@@ -328,19 +318,11 @@ box-shadow: 0 0 2px 1px rgb(255, 21, 0);padding: 2px}
 .ui-standard-sidebar-view .content-column.default {max-width: 90%;padding: 40px 30px 80px}
 #bd-settingspane-container h2.ui-form-title {font-size: 1.5rem}
 .ace-monokai {background-color: rgba(0, 0, 0, 0)}
-.ace-monokai .ace_gutter-active-line {
-    background-color: rgb(39, 39, 39);
-}
-.editor {background: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-}
-.ace-monokai .ace_gutter {background: rgba(0, 0, 0, 0.7);
-    color: #de1515;
-}
+.ace-monokai .ace_gutter-active-line {background-color: rgb(39, 39, 39)}
+.editor {background: rgba(0, 0, 0, 0.5);padding: 10px}
+.ace-monokai .ace_gutter {background: rgba(0, 0, 0, 0.7);color: #de1515}
 .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
-    background: rgba(0, 0, 0, .7);
-    box-shadow: 0 1px 0 0 rgba(31, 57, 208, 0.5) inset;
-}
+    background: rgba(0, 0, 0, .7);box-shadow: 0 1px 0 0 rgba(31, 57, 208, 0.5) inset}
 /* TITLE BAR */
 #app-mount .titleWrapper-3Vi_wz > div{margin-right: 98px }
 .activityFeed--1mYMS .iconMargin-2Js7V9,#app-mount .activityFeed-HeiGwL .iconMargin-2Js7V9 ,
@@ -425,13 +407,9 @@ box-shadow: 0 0 2px 1px rgb(255, 21, 0);padding: 2px}
 #friends .friends-header{border-bottom:1px #141416 solid }
 #friends .tab-bar .tab-bar-item.selected .badge-1GsMF2 {background-color: hsla(0, 0%, 0%, 0.9);color: var(--accent)}
 #friends .tab-bar .tab-bar-item .badge-1GsMF2 {background-color: rgba(0, 0, 0, 0.8);color: hsla(240, 100%, 50%, 0.8)}
-.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary,.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
-    background-color: hsla(0, 100%, 50%, 0.5)}
-.theme-dark #friends .tab-bar .tab-bar-item.selected {
-    background-color: hsla(0, 100%, 50%, 0.5) ;
-    color: #fff;
-}
-
+.theme-dark #friends .tab-bar .tab-bar-item.selected,.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary,
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+    background-color: hsla(0, 100%, 50%, 0.5);color: #fff}
 .popout-3sVMXz.popoutTop-3uu9vG-left {box-shadow: none}
 
 /* Status Chooser */
