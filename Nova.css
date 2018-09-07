@@ -50,9 +50,8 @@ svg.homeIcon-1FoKUJ{background: url(https://i.imgur.com/pIiNaUN.gif) no-repeat c
 .header-QKLPzZ .lookInverted-2D7oAl.colorBrand-3pXr91 {background-color: rgba(0, 0, 0, 0);color: hsla(0, 100%, 50%, 0.9);border: 1px solid hsla(240, 100%, 50%, 0.8)}
 .userPopout-3XzG_A {border: 1px solid hsla(240, 100%, 50%, 0.8)}
 #app-mount .quickMessage-1yeL4E {background-color: rgba(0, 0, 0, 0.2);color: hsla(0, 0%, 100%, 1)}
-#autocomplete-popout {border: 1px solid hsla(240, 100%, 50%, 0.8)}
+#autocomplete-popout {border: 1px solid hsla(240, 100%, 50%, 0.8);border: 1px solid #0080ff}
 #autocomplete-popout .autocomplete-shadow,.popouttop #autocomplete-popout .autocomplete-arrow-wrapper {display:none}
-.quickMessage-2XpSaN {border: 1px solid #0080ff }
 #app-mount .topSectionNormal-2-vo2m,#app-mount .body-3ND3kc,#autocomplete-popout header,
 #autocomplete-popout .autocomplete-scroller,.headerPlaying-j0WQBV,.topSectionPlaying-1J5E4n {background: rgba(0,0,0,0.9) }
 .root-SR8cQa{ border: 1px solid rgb(255, 0, 0)}
@@ -514,3 +513,5 @@ box-shadow: 0 0 2px 1px rgb(255, 21, 0);padding: 2px}
 
 /* Plugins */
 .theme-dark #memberCount {background: transparent;padding:0}
+.dst-tooltip {background-color: rgba(0, 0, 0, 0.9)!important;box-shadow:0 0 5px 1px red}
+.dst-tooltip:after {display:none}
